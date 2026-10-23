@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: mik-mik
+
+server:
+  port: ${SERVER_PORT:8080}

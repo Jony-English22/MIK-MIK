@@ -1,0 +1,31 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+target/
+backend/target/
+*.class
+*.log
+.mvn/timing.properties
+
+# Tool-generated workspace files
+.github/modernize/
+
+# Flutter / Dart
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/.pub-cache/
+mobile/.pub/
+mobile/build/
+mobile/coverage/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
